@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/placeImages/kunj_riverscape8.jpeg") top center;
+  background: url("../img/placeImages/kunj_riverscape3.jpeg") top center;
   background-size: cover;
   position: relative;
 }
@@ -514,35 +514,7 @@ section {
   transition: all 0.4s;
   z-index: -1;
 }
-.services .section-title1 {
-  text-align: center;
-  padding-bottom: 30px;
-}
-.section-title1 h2 {
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  padding: 8px 20px;
-  line-height: 1;
-  margin: 0;
-  background: #fdeff2;
-  color: #7c292a;
-  display: inline-block;
-  text-transform: uppercase;
-  border-radius: 50px;
-}
-.section-title1 h3 {
-  margin: 15px 0 15px 0;
-  font-size: 32px;
-  font-weight: 700;
-}
-.section-title1 h3 span {
-  color: #7c292a;
-}
-.section-title1 p {
-  margin: 20 auto ;
-  font-weight: 600;
-}
+
 .services .icon-box:hover::before {
   background: #7c292a;
   top: 0;
@@ -581,7 +553,41 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features {
+  background: url("../img/placeImages/kunj_riverscape8.jpeg")  top center ;
+  background: linear-gradient(rgpa(0,0,0,0.5),rgba(0,0,0,0.5));
   margin-top: -140px;
+  background-size: cover;
+}
+.features .section-title1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title1 h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  line-height: 1;
+  margin: 0;
+  background: #fdeff2;
+  color: #7c292a;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+.section-title1 h3 {
+  margin: 15px 0 15px 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
+.section-title1 h3 span {
+  color: #7c292a;
+}
+.section-title1 p {
+  margin: 20 auto ;
+  font-weight: 600;
+  color: #fff;
 }
 
 .features .icon-box {
@@ -590,6 +596,8 @@ section {
   padding: 20px;
   transition: ease-in-out 0.3s;
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
+  background-color: #fff;
+  opacity: 0.8;
 }
 .features .icon-box i {
   font-size: 32px;
@@ -618,6 +626,7 @@ section {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/placeImages/kunj_riverscape7.jpeg") center center;
   background-size: cover;
   padding: 60px 0;
+  margin-bottom: 40px;
 }
 .cta h3 {
   color: #fff;
